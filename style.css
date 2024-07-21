@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif;
+} 
+
+.section1 {
+    background: linear-gradient(90deg,#274060,#ffffff);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    padding-left: 50%;
+    margin: 30px;
+    color: black;
+}
+
+.btn1 {
+    margin: 30px;
+}
+
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg,#ffffff,#91a6ff);
+}
+
+.section2 .topright {
+    width: 60%;
+    height: 100vh;
+    background: linear-gradient(45deg,#91a6ff,#ffffff);
+}
+
+.section2 h3 {
+    padding: 20px;
+}
+
+.section2 h1 {
+    color: rgb(79, 34, 153);
+    font-size: 3rem;
+    padding: 30px;
+}
+
+.section2 p {
+    color: rgb(137, 26, 137);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.section2 .btn-one {
+    padding-left: 30px;
+}
+
+.section2 .topleft {
+    width: 40%;
+    height: 100vh;
+    padding-left: 110%;
+    
+   
+}
+
+.section2 .topleft img {
+    width: 450px; 
+    height: 550px; 
+    transform: translateY(-200px); 
+}
+
+.section3 {
+    width: 100%;
+    height: 40px;
+}
+
+.section3 .icons {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.215);
+    cursor: pointer;
+}
+
+.section3 .icons .fa-brands {
+    color: #5b2d51;
+    font-size: 1.7rem;
+}
+.section3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .link{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .icons .fa-brands:hover {
+    cursor: pointer;
+    background: linear-gradient(#fff, #3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:nth-child(1):hover {
+    background: transparent;
+    color: #020526;
+    transform: scale(1.5); 
+}
+
+button:nth-child(2):hover {
+    background: #c0051b;
+    color: #c91a1a;
+    transform: scale(1.5); 
+}
